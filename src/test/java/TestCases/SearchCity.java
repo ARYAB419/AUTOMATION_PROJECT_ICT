@@ -5,7 +5,7 @@ import DataProvider.SearchDatas;
 import ExtentReport.ListenerTest;
 import Listeners.Base;
 import PageFactory.PageFactoryObjects;
-//import ReportCommon.Reports;
+//import ReportCommon.Reports;*******
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -19,7 +19,7 @@ public class SearchCity extends Driver {
     public  void SearchCity(String city) throws IOException {
         PageFactoryObjects pageFactoryObjects=new PageFactoryObjects(driver);
         pageFactoryObjects.enterCity(city);
-        test=extent.createTest("Search City");
+        test=extent.createTest("Search City ");
        Assert.assertEquals(true,true);
 
     }
