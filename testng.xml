@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/athira-hp/IdeaProjects/ICTAssignmentBookMyShow">
+        <classes>
+
+            <class name="TestCases.SearchCity">
+            </class>
+            <class name="TestCases.SearchMovie">
+            </class>
+            <class name="TestCases.SearchOnward">
+            </class>
+           <class name="TestCases.SelectOffersNegative">
+            </class>
+            <class name="TestCases.SelectOffersPositive">
+        </class>
+
+            <class name="TestCases.FooterTextValidation">
+                       </class>
+
+            <class name="TestCases.ListYourShowServices">
+            </class>
+            <class name="TestCases.ListYourShowServices">
+            </class>
+            <class name="TestCases.CheckOffers">
+            </class>
+            <class name="TestCases.CrewNegative">
+            </class>
+
+            <class name="TestCases.ListYourShowHost">
+            </class>
+
+            <class name="TestCases.ReportAndBussiness">
+            </class>
+            <class name="TestCases.ReportHost">
+            </class>
+
+        </classes>
+    </test>
+</suite>
